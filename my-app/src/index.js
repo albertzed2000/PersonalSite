@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import AboutBlurb from './parts/2intro/About';
+import Intro from "./parts/2intro/Intro";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AboutBlurb />
+    <Intro />
   </React.StrictMode>,
   document.getElementById('root')
 );
