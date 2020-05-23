@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import TestComp from "./App";
 import * as serviceWorker from './serviceWorker';
-import AboutBlurb from './parts/About';
+import AboutBlurb from './parts/2intro/About';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TestComp />
     <AboutBlurb />
   </React.StrictMode>,
   document.getElementById('root')
