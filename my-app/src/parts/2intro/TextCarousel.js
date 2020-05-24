@@ -1,22 +1,28 @@
 import React, { Component } from 'react'  
 import Carousel from 'react-bootstrap/Carousel'  
-export class BootstrapCarousel extends Component {  
+
+export class TextCarousel extends Component {  
         render() {  
-  
-                return (  
-                        <div style={{width: "150px", height: "50px"}}>   
-                         <Carousel fade={true} controls={false} indicators={false}>  
-                         <Carousel.Item style={{'height': "50px", "width": "150px", "background-color":"red"}}>
-                                 <h1>winning</h1>
-                        </Carousel.Item>
+                //temporary component, must be styled properly for final verson!
 
-                        <Carousel.Item style={{'height': "50px", "width": "150px", "background-color":"red"}}>
-                                <h1>losing</h1>
-                        </Carousel.Item>
+                let itemStyle = {'height': "50px", "width": "1150px", "background-color":"#e0e0eb"};
+                return (
+                        <div>   
+                        <Carousel fade={true} controls={false} indicators={false} interval={2000}>  
+                         <Carousel.Item style={itemStyle}>
+                                 <h1>Two-time half-marathon finisher.</h1>
+                         </Carousel.Item>
 
-                        <Carousel.Item style={{'height': "50px", "width": "150px", "background-color":"red"}}>
-                                <h1>gaining weight</h1>
-                        </Carousel.Item>
+                         <Carousel.Item style={itemStyle}>
+                                <h1>Aspiring Chef.</h1>
+                         </Carousel.Item>
+
+                         <Carousel.Item style={itemStyle}>
+                                <h1>Wishing to skateboard more this Summer.</h1>
+                         </Carousel.Item>
+                         <Carousel.Item style={itemStyle}>
+                                <h1>Tarantino film lover.</h1>
+                         </Carousel.Item>
 
                                         </Carousel>  
                         </div>  
@@ -24,4 +30,4 @@ export class BootstrapCarousel extends Component {
         }  
 }  
   
-export default BootstrapCarousel  
+export default TextCarousel  

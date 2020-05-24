@@ -1,6 +1,7 @@
 import React from "react";
-import AboutBlurb from "./About";
-import BigName from "./Name";
+import BigName from "./JumboName";
+import TextCarousel from "./TextCarousel";
+import Test from "./test";
 
 class Intro extends React.Component{
 
@@ -9,8 +10,13 @@ class Intro extends React.Component{
 
         return(
             <div>
-                <AboutBlurb />
-                <BigName />
+                
+                <div className="jumbo">
+                    <BigName />
+                </div>
+                <TextCarousel/>
+                <Test />
+
 
             </div>
 
