@@ -17,7 +17,7 @@ company, don't hesitate to contact me! I promise that I am a cool person to work
 
       </div>
     )
-    }
+    } 
   }
 
 
