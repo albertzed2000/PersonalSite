@@ -3,10 +3,12 @@
 .jumbo {
     color: black;
     font-family: 'Raleway', sans-serif;
-    font-size: 7.0em;
-    background-color: #e0e0eb;
+    font-size: 30vh;
+    background-color:  #ff6600;
+    color: black;
+    padding-bottom: 1.1em;
 }
-h1 {
-    font-size: 100px;
-    background-color: red;
+
+#Jumbotron {
+    background-color: transparent !important;
 }

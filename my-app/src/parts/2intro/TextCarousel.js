@@ -5,7 +5,7 @@ export class TextCarousel extends Component {
         render() {  
                 //temporary component, must be styled properly for final verson!
 
-                let itemStyle = {'height': "50px", "width": "1150px", "background-color":"#e0e0eb"};
+                let itemStyle = {'height': "1.0em"};
                 return (
                         <div>   
                         <Carousel fade={true} controls={false} indicators={false} interval={2000}>  
