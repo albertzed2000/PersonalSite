@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Intro from "./parts/2intro/Intro";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Okay from "./parts/2intro/TestCar";
+import Okay from "./parts/2intro/TextCarousel";
 
 ReactDOM.render(
   <React.StrictMode>
