@@ -2,13 +2,20 @@
 
 .jumbo {
     color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 30vh;
     background-color:  #ff6600;
     color: black;
-    padding-bottom: 1.1em;
+    margin-bottom: -4.5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
 }
 
 #Jumbotron {
     background-color: transparent !important;
+}
+
+#caro {
+    padding: 0vh 0vh 0vh 2.5vh;
 }

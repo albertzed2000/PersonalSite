@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.aboutJumbo{
+
+    background-color: transparent !important;
+    color: black;
+    font-size: 18vh;
+    font-family: "Raleway", sans-serif;
+    text-align: right;
+    margin-right: 8vh;
+}
+
+.AboutGeneral {
+    background-color: #ffcce6;
+    padding: 10vh 0vh 35vh 0vh;
+}

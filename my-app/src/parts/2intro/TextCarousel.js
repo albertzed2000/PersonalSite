@@ -1,5 +1,6 @@
 import React, { Component } from 'react'  
 import Carousel from 'react-bootstrap/Carousel'  
+import "./Intro.css";
 
 export class TextCarousel extends Component {  
         render() {  
@@ -18,10 +19,10 @@ export class TextCarousel extends Component {
                          </Carousel.Item>
 
                          <Carousel.Item style={itemStyle}>
-                                <h1>Wishing to skateboard more this Summer.</h1>
+                                <h1>Amateur Skateboarder.</h1>
                          </Carousel.Item>
                          <Carousel.Item style={itemStyle}>
-                                <h1>Tarantino film lover.</h1>
+                                <h1>Film lover.</h1>
                          </Carousel.Item>
 
                                         </Carousel>  
