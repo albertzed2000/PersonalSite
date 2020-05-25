@@ -24,6 +24,9 @@ export class TextCarousel extends Component {
                          <Carousel.Item style={itemStyle}>
                                 <h1>Film lover.</h1>
                          </Carousel.Item>
+                         <Carousel.Item style={itemStyle}>
+                                <h1>Prefers Python over Java.</h1>
+                         </Carousel.Item>
 
                                         </Carousel>  
                         </div>  

@@ -4,6 +4,7 @@ import AboutJumbo from "./AboutJumbo";
 import "./About.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 
 class About extends React.Component{
 
@@ -13,7 +14,8 @@ class About extends React.Component{
             <div className="AboutGeneral">
             <Row>
                 <Col md={4}>
-                    <div>
+                    <div className="imageHolder">
+                        <Image alt="Me and my girlfriend!" src={'assets/img/me.jpeg'} rounded={true} fluid/>
                     </div>
                 </Col>
                 <Col md={8}>
@@ -22,7 +24,7 @@ class About extends React.Component{
                         <AboutJumbo />
                     </div>
 
-                    <div>
+                    <div className="blurb">
                         <Blurb />
                     </div>
                 </div>

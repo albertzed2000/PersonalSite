@@ -8,9 +8,23 @@
     font-family: "Raleway", sans-serif;
     text-align: right;
     margin-right: 8vh;
+    color: #ff6600;
 }
 
 .AboutGeneral {
     background-color: #ffcce6;
-    padding: 10vh 0vh 35vh 0vh;
+    padding: 10vh 5vh 35vh 0vh;
+    
+}
+
+.blurb{
+    background-color: transparent;
+    font-size: 4vh;
+    font-family: "Raleway", sans-serif;
+}
+
+.imageHolder{
+    padding-top: 40vh;
+    margin: 11vh 0vh 11vh 11vh;
+    font-size: 3.5vh;
 }
