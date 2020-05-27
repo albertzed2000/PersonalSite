@@ -28,3 +28,19 @@
     margin: 11vh 0vh 11vh 11vh;
     font-size: 3.5vh;
 }
+
+.images-right{
+    margin-left: -1.5vh;
+}
+
+.images-left{
+    margin-right: -1.5vh;
+}
+
+.images-center{
+    margin: 0vh -2.5vh 0vh -2.5vh;
+}
+
+.about-images{
+    padding-left: 8vh;
+}
