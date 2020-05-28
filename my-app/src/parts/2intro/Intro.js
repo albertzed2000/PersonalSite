@@ -15,7 +15,7 @@ class Intro extends React.Component{
             <div className="jumbo fluid-container" >
                     <Jumbotron id="Jumbotron" fluid data-aos="fade-right" data-aos-duration="1000">
 
-                        Hi, I'm <span style={{"color": "#ffcce6"}}>Albert!</span>
+                        Hi, I'm <span style={{"color": "#ff6600"}}>Albert!</span>
 
                         <div id="caro">
                         <TextCarousel />

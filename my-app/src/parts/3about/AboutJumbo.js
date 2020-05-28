@@ -9,7 +9,7 @@ class AboutJumbo extends React.Component{
         return(
             
             <Jumbotron className="aboutJumbo" fluid>
-                &#123; About 	&#125;
+                &#123;About&#125;
             </Jumbotron>
 
         )

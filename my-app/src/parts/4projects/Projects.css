@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
 .projects-whole{
 
     background-color: black;
     color: orange;
+
+}
+
+.projects-jumbo{
+    background-color: transparent !important;
+    color: pink;
+    font-family: "Raleway", serif;
+    font-size: 18vh;
+
 }
