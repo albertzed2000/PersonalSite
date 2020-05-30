@@ -6,7 +6,8 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+
 
 class Projects extends React.Component{
 
@@ -54,7 +55,7 @@ class Projects extends React.Component{
                         An android app built with Java with 3 gamemodes including Sudoku, Trivia, and Whack-a-mole that implements
                         Model-View-Presenter architecture.
                         </Card.Text>
-                        <Button variant="primary" onClick={this.adventureClick}><FontAwesomeIcon icon={faLink} /> See it on Github!</Button>
+                        <Button variant="primary" onClick={this.adventureClick}><FontAwesomeIcon icon={faStar} /> See it on Github!</Button>
                     </Card.Body>
                     </Card>
                     </Col>
@@ -70,7 +71,7 @@ class Projects extends React.Component{
                         <Card.Text>
                         An android app built in Java that implements text-to-speech to simulate an English conversation
                         </Card.Text>
-                        <Button variant="primary" onClick={this.conversationClick}><FontAwesomeIcon icon={faLink} /> See it on Github!</Button>
+                        <Button variant="primary" onClick={this.conversationClick}><FontAwesomeIcon icon={faStar} /><i className="fab fa-github"></i> See it on Github!</Button>
                     </Card.Body>
                     </Card>
                     </Col>

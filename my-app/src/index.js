@@ -6,14 +6,14 @@ import Intro from "./parts/2intro/Intro";
 import About from "./parts/3about/About";
 import Projects from "./parts/4projects/Projects"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Contact from "./parts/5Contact/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
     <Intro />
     <About />
     <Projects />
-    
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
