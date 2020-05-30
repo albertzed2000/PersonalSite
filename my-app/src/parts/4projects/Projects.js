@@ -36,10 +36,10 @@ class Projects extends React.Component{
 
             <div className="projects-whole">
                 <Row>
-                    <Col>
+                    <Col md={7}>
                     </Col>
 
-                    <Col>
+                    <Col md={5}>
                     <div data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-top">
                         <ProjectsJumbo />
                     </div>
@@ -49,7 +49,7 @@ class Projects extends React.Component{
                 
                 <Row>
                     
-                        <Col className='button-general'>
+                        <Col className='button-general' md={4}>
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
                         <Card >
                         <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
@@ -68,7 +68,7 @@ class Projects extends React.Component{
 
 
 
-                        <Col className='button-general'>
+                        <Col className='button-general' md={4}>
 
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
                         <Card >
@@ -85,7 +85,7 @@ class Projects extends React.Component{
                         </div>
                         </Col>
 
-                        <Col></Col>
+                        <Col md={4}></Col>
                     
                 </Row>
 

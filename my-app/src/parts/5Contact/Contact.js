@@ -21,12 +21,12 @@ class Contact extends React.Component{
         <div className="contact-whole">
 
             <Row>
-                <Col>
+                <Col md={7}>
 
                 </Col>
 
 
-                <Col>
+                <Col md={5}>
                     <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
                         <ContactJumbo />
                     </div>
@@ -34,7 +34,7 @@ class Contact extends React.Component{
             </Row>
             
             <Row className="icon-row">
-                <Col>
+                <Col md={3}>
                     <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="300">
                         <a href="https://github.com/albertzed2000" target="blank">
                         <FontAwesomeIcon className="icon" icon={faGithub}/>
@@ -45,7 +45,7 @@ class Contact extends React.Component{
                     </div>
                 </Col>
 
-                <Col>
+                <Col md={3}>
                     <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
                         <a href="https://www.linkedin.com/in/albertzed/" target="blank">
                         <FontAwesomeIcon className="icon" icon={faLinkedin}/>
@@ -56,7 +56,7 @@ class Contact extends React.Component{
                     </div>
                 </Col>
 
-                <Col>  
+                <Col md={3}>  
                     <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
                         <a href="mailto:mralbertzheng@gmail.com" target="blank">
                         <FontAwesomeIcon className="icon" icon={faMailBulk}/>
@@ -67,7 +67,7 @@ class Contact extends React.Component{
                     </div>
                 </Col>
 
-                <Col>
+                <Col md={3}>
                     <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="900">
                         <a href="assets/AlbertZhengResume.pdf" target="blank">
                         <FontAwesomeIcon className="icon" icon={faFile}/>
