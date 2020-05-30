@@ -6,9 +6,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Blurb2 from "./Blurb2";
+import Blurb3 from "./blurb3";
+
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import Blurb3 from "./blurb3";
 AOS.init();
 
 class About extends React.Component{

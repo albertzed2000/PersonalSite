@@ -9,3 +9,18 @@
     font-size: 18vh;
     background-color: transparent !important;
 }
+
+.icon{
+
+    font-size: 12vh;
+}
+
+.icon-text{
+
+    font-size: 4vh;
+}
+
+.icon-row{
+
+    margin-left: 4vh;
+}

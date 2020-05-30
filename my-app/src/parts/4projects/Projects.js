@@ -8,6 +8,9 @@ import Button from "react-bootstrap/Button"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+AOS.init();
 
 class Projects extends React.Component{
 
@@ -37,7 +40,9 @@ class Projects extends React.Component{
                     </Col>
 
                     <Col>
+                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-top">
                         <ProjectsJumbo />
+                    </div>
                     </Col>
                 </Row>
                 
@@ -46,6 +51,7 @@ class Projects extends React.Component{
 
                 <Row>
                     <Col className='button-general'>
+                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
                     <Card >
                     <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
                     
@@ -58,11 +64,14 @@ class Projects extends React.Component{
                         <Button variant="primary" onClick={this.adventureClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
                     </Card.Body>
                     </Card>
+                    </div>
                     </Col>
 
 
 
                     <Col className='button-general'>
+
+                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
                     <Card >
                     <Card.Img variant="top" src={'assets/img/conv-screenshot1.jpg'} />'
                     
@@ -74,9 +83,8 @@ class Projects extends React.Component{
                         <Button variant="primary" onClick={this.conversationClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
                     </Card.Body>
                     </Card>
+                    </div>
                     </Col>
-
-                    <Col></Col>
 
                     <Col></Col>
                     
