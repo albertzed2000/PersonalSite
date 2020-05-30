@@ -2,6 +2,7 @@ import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron"
 import TextCarousel from "./TextCarousel"
 import "./Intro.css";
+
 import AOS from "aos";
 import 'aos/dist/aos.css';
 AOS.init();

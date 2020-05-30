@@ -47,46 +47,45 @@ class Projects extends React.Component{
                 </Row>
                 
                 
-
-
                 <Row>
-                    <Col className='button-general'>
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
-                    <Card >
-                    <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
                     
-                    <Card.Body>
-                        <Card.Title>Adventure of Post</Card.Title>
-                        <Card.Text>
-                        An android app built with Java with 3 gamemodes including Sudoku, Trivia, and Whack-a-mole that implements
-                        Model-View-Presenter architecture.
-                        </Card.Text>
-                        <Button variant="primary" onClick={this.adventureClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
-                    </Card.Body>
-                    </Card>
-                    </div>
-                    </Col>
+                        <Col className='button-general'>
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
+                        <Card >
+                        <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
+                        
+                        <Card.Body>
+                            <Card.Title>Adventure of Post</Card.Title>
+                            <Card.Text>
+                            An android app built with Java with 3 gamemodes including Sudoku, Trivia, and Whack-a-mole that implements
+                            Model-View-Presenter architecture.
+                            </Card.Text>
+                            <Button variant="primary" onClick={this.adventureClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
+                        </Card.Body>
+                        </Card>
+                        </div>
+                        </Col>
 
 
 
-                    <Col className='button-general'>
+                        <Col className='button-general'>
 
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
-                    <Card >
-                    <Card.Img variant="top" src={'assets/img/conv-screenshot1.jpg'} />'
-                    
-                    <Card.Body>
-                        <Card.Title>Conversationalist</Card.Title>
-                        <Card.Text>
-                        An android app built in Java that implements text-to-speech to simulate an English conversation
-                        </Card.Text>
-                        <Button variant="primary" onClick={this.conversationClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
-                    </Card.Body>
-                    </Card>
-                    </div>
-                    </Col>
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
+                        <Card >
+                        <Card.Img variant="top" src={'assets/img/conv-screenshot1.jpg'} />'
+                        
+                        <Card.Body>
+                            <Card.Title>Conversationalist</Card.Title>
+                            <Card.Text>
+                            An android app built in Java that implements text-to-speech to simulate an English conversation
+                            </Card.Text>
+                            <Button variant="primary" onClick={this.conversationClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
+                        </Card.Body>
+                        </Card>
+                        </div>
+                        </Col>
 
-                    <Col></Col>
+                        <Col></Col>
                     
                 </Row>
 
