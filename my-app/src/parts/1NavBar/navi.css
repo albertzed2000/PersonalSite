@@ -1,4 +1,5 @@
-internal-links{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
 
-        text-align: center;
+.nav-text {
+    font-family: "Roboto", sans-serif;
 }

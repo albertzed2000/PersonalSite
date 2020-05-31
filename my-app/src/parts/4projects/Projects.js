@@ -40,7 +40,7 @@ class Projects extends React.Component{
                     </Col>
 
                     <Col md={5}>
-                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-top">
+                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-center">
                         <ProjectsJumbo />
                     </div>
                     </Col>
