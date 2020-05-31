@@ -3,11 +3,9 @@
 .jumbo {
     color: black;
     font-family: "Raleway", sans-serif;
-    font-size: 30vh;
+    font-size: 15vw;
     background-color:  white;
-    margin-bottom: -4.5vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2vw;
     
 }
 

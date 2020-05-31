@@ -34,7 +34,7 @@ class Projects extends React.Component{
 
         return(
 
-            <div className="projects-whole">
+            <div className="projects-whole" style={{"overflow-x": "hidden", "overflow-y": "hidden"}}>
                 <Row>
                     <Col md={7}>
                     </Col>
@@ -48,8 +48,9 @@ class Projects extends React.Component{
                 
                 
                 <Row>
-                    
-                        <Col className='button-general' md={4}>
+                    <Col md={2}></Col>
+
+                        <Col className='card-general' md={4}>
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
                         <Card >
                         <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
@@ -68,7 +69,7 @@ class Projects extends React.Component{
 
 
 
-                        <Col className='button-general' md={4}>
+                        <Col className='card-general' md={4}>
 
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
                         <Card >
@@ -85,10 +86,10 @@ class Projects extends React.Component{
                         </div>
                         </Col>
 
-                        <Col md={4}></Col>
+                        <Col md={2}></Col>
                     
                 </Row>
-
+            <br></br><br></br><br></br>
             </div>
         )
     }

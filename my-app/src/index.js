@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+
+
 import Intro from "./parts/2Intro/Intro";
 import About from "./parts/3about/About";
 import Projects from "./parts/4projects/Projects"
@@ -18,18 +20,23 @@ ReactDOM.render(
     <div id="Intro">
       <Intro />
     </div>
-
-
+    
+    
+    
     <div id="About">
       <About />
     </div>
+    
 
+    
     <div id="Projects">
       <Projects/>
     </div>
+    
 
     <div id="Contact">
       <Contact />
+
     </div>
   </React.StrictMode>,
   document.getElementById('root')

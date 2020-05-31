@@ -7,10 +7,9 @@ class ProjectJumbo extends React.Component{
     render(){
 
         return(
-            
-            <Jumbotron className="projects-jumbo" fluid>
-                &#123;Projects&#125;
-            </Jumbotron>
+                <Jumbotron className="projects-jumbo" fluid>
+                    &#123;Projects&#125;
+                </Jumbotron>
 
         )
     }

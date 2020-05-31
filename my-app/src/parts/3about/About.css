@@ -6,47 +6,48 @@
 
     background-color: transparent !important;
     color: black;
-    font-size: 18vh;
+    font-size: 9vw;
     font-family: "Raleway", sans-serif;
     text-align: right;
-    margin-right: 8vh;
+    margin-right: 4vw;
     color: #ff6600;
 }
 
 .AboutGeneral {
     background-color: #ffd9b3;
-    padding: 10vh 5vh 35vh 0vh;
+    padding: 0vw 2vw 12vw 0vw;
     
 }
 
 .blurb{
     background-color: transparent;
-    font-size: 3.5vh;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
 }
 
 .imageHolder{
-    padding-top: 40vh;
-    margin: 11vh 0vh 11vh 11vh;
+    padding-top: 23vw;
+    margin: 6vw 0vh 6vw 6vw;
     font-size: 3.5vh;
 }
+
+
 .images-right{
-    margin-left: -1.5vh;
+    margin-left: 0vw;
+    border: 2vw solid white;
 }
 
 .images-left{
-    margin-right: -1.5vh;
+    margin-right: 0vw;
+    border: 2vw solid white;
 }
 
 .images-center{
-    margin: 0vh -2.5vh 0vh -2.5vh;
+    margin: 0vw 0vw 0vw 0vw;
+    border: 2.44vw solid white;
 }
 
 .about-images{
-    padding-left: 8vh;
+    padding-left: 4vw;
     
-}
-
-.pic{
-    border: 1vh solid white;
 }

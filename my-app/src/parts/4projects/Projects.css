@@ -5,18 +5,17 @@
 
     background-color: black;
     color: orange;
-
+    
 }
 
 .projects-jumbo{
     background-color: transparent !important;
     color: #ff6600;
     font-family: "Raleway", serif;
-    font-size: 18vh;
+    font-size: 9vw;
 
 }
 
-.button-general{
+.card-general{
     color: black;
-    
 }
