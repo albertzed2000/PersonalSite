@@ -6,7 +6,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import {faMailBulk, faFile} from "@fortawesome/free-solid-svg-icons"
 import "./navi.css";
-import Row from "react-bootstrap/Row";
 class Navi extends React.Component{
 
 
@@ -26,6 +25,7 @@ class Navi extends React.Component{
                         <Nav.Link href="#Contact">Contact</Nav.Link>
 
                     </Nav>
+
                     <Nav>
                         <Nav.Link href="https://github.com/albertzed2000" target="blank"><FontAwesomeIcon icon={faGithub}/></Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/in/albertzed/" target="blank"><FontAwesomeIcon icon={faLinkedin}/></Nav.Link>
