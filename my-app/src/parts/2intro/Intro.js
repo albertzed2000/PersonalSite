@@ -34,7 +34,6 @@ class Intro extends React.Component{
                         </Col>
                     </Row>     
                     </Jumbotron>
-                    <br></br>
                     
             </div>
 

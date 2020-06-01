@@ -21,18 +21,25 @@ ReactDOM.render(
       <Intro />
     </div>
     
-    
+    <div className="intro-ombre">
+      <br></br><br></br><br></br><br></br>
+    </div>
     
     <div id="About">
       <About />
     </div>
     
-
+    <div className="about-ombre">
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+    </div>
     
     <div id="Projects">
       <Projects/>
     </div>
     
+    <div className="projects-ombre">
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+    </div>
 
     <div id="Contact">
       <Contact />
