@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import {faMailBulk, faFile} from "@fortawesome/free-solid-svg-icons"
+import {faEnvelopeSquare, faFile} from "@fortawesome/free-solid-svg-icons"
 
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -59,7 +59,7 @@ class Contact extends React.Component{
                 <Col md={3}>  
                     <div>
                         <a href="mailto:mralbertzheng@gmail.com" target="blank" style={{color: "black"}}>
-                        <FontAwesomeIcon className="icon" icon={faMailBulk}/>
+                        <FontAwesomeIcon className="icon" icon={faEnvelopeSquare}/>
                         </a>
                         <div className="icon-text">
                         Email

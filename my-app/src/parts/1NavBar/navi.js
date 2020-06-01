@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import {faMailBulk, faFile} from "@fortawesome/free-solid-svg-icons"
+import {faEnvelopeSquare, faFile} from "@fortawesome/free-solid-svg-icons"
 import "./navi.css";
 class Navi extends React.Component{
 
@@ -29,7 +29,7 @@ class Navi extends React.Component{
                     <Nav>
                         <Nav.Link href="https://github.com/albertzed2000" target="blank"><FontAwesomeIcon icon={faGithub}/></Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/in/albertzed/" target="blank"><FontAwesomeIcon icon={faLinkedin}/></Nav.Link>
-                        <Nav.Link href="mailto:mralbertzheng@gmail.com" target="blank"><FontAwesomeIcon icon={faMailBulk}/></Nav.Link>
+                        <Nav.Link href="mailto:mralbertzheng@gmail.com" target="blank"><FontAwesomeIcon icon={faEnvelopeSquare}/></Nav.Link>
                         <Nav.Link href="assets/AlbertZhengResume.pdf" target="blank"><FontAwesomeIcon icon={faFile}/></Nav.Link>
                 
                     </Nav>
