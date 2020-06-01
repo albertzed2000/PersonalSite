@@ -49,3 +49,23 @@
     padding-left: 4vw;
     
 }
+
+@media screen and (orientation:portrait){
+    .aboutJumbo{
+        font-size: 18vw;
+    }
+    .blurb{
+        font-size: 6vw;
+    }
+    .images-right{
+        border: 4vw solid white;
+    }
+    .images-left{
+        border:4vw solid white;
+    }
+    
+    .images-center{
+        border: 4vw solid white;
+    }
+    
+}

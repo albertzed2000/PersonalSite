@@ -25,3 +25,28 @@
 
     margin-left: 4vh;
 }
+
+@media screen and (orientation:portrait){
+    
+    
+    
+    .contact-jumbo{
+    
+        font-size: 12vw;
+    }
+    
+    .icon{
+    
+        font-size: 6vh;
+    }
+    
+    .icon-text{
+    
+        font-size: 3vh;
+    }
+    
+    .icon-row{
+    
+        margin-left: 2vw;
+    }
+}

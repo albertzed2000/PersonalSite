@@ -27,7 +27,7 @@ class Contact extends React.Component{
 
 
                 <Col md={5}>
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="1000">
+                    <div>
                         <ContactJumbo />
                     </div>
                 </Col>
@@ -35,7 +35,7 @@ class Contact extends React.Component{
             
             <Row className="icon-row">
                 <Col md={3}>
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="1500">
+                    <div>
                         <a href="https://github.com/albertzed2000" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faGithub}/>
                         </a>
@@ -46,7 +46,7 @@ class Contact extends React.Component{
                 </Col>
 
                 <Col md={3}>
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="1700">
+                    <div>
                         <a href="https://www.linkedin.com/in/albertzed/" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faLinkedin}/>
                         </a>
@@ -57,7 +57,7 @@ class Contact extends React.Component{
                 </Col>
 
                 <Col md={3}>  
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="1900">
+                    <div>
                         <a href="mailto:mralbertzheng@gmail.com" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faMailBulk}/>
                         </a>
@@ -66,9 +66,9 @@ class Contact extends React.Component{
                         </div>
                     </div>
                 </Col>
-
+                {/*data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="2100"*/}
                 <Col md={3}>
-                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="2100">
+                    <div>
                         <a href="assets/AlbertZhengResume.pdf" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faFile}/>
                         </a>

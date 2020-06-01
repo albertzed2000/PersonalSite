@@ -3,7 +3,7 @@
 .jumbo {
     color: black;
     font-family: "Raleway", sans-serif;
-    font-size: 15vw;
+    font-size: 24vmin;
     background-color:  white;
     padding-top: 2vw;
     
@@ -13,6 +13,6 @@
     background-color: transparent !important;
 }
 
-#caro {
+.caro {
     padding: 0vh 0vh 0vh 2.5vh;
 }

@@ -46,12 +46,12 @@ class Projects extends React.Component{
                     </Col>
                 </Row>
                 
-                
+                <div id="first-card"></div>
                 <Row>
-                    <Col md={2}></Col>
+                    <Col md={3}></Col>
 
-                        <Col className='card-general' md={4}>
-                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="500">
+                        <Col className='card-general' md={3}>
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#first-card" data-aos-delay="500">
                         <Card >
                         <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
                         
@@ -67,11 +67,11 @@ class Projects extends React.Component{
                         </div>
                         </Col>
 
+                        {/*data-aos-anchor-placement="top-top" */ }
+                        <div id="second-card"></div>
+                        <Col className='card-general' md={3}>
 
-
-                        <Col className='card-general' md={4}>
-
-                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-top" data-aos-delay="700">
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#second-card" data-aos-delay="700">
                         <Card >
                         <Card.Img variant="top" src={'assets/img/conv-screenshot1.jpg'} />'
                         
@@ -86,7 +86,7 @@ class Projects extends React.Component{
                         </div>
                         </Col>
 
-                        <Col md={2}></Col>
+                        <Col md={3}></Col>
                     
                 </Row>
             <br></br><br></br><br></br>
