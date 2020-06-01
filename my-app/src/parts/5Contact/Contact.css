@@ -26,6 +26,7 @@
     margin-left: 4vh;
 }
 
+/*applies only to portrait-oriented devices*/
 @media screen and (orientation:portrait){
     
     

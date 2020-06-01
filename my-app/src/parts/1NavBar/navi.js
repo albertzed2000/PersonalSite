@@ -1,16 +1,25 @@
+//import react
 import React from "react";
+
+//import react-bootstrap navbar component and subcomponents
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+
+//fontawesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import {faEnvelopeSquare, faFile} from "@fortawesome/free-solid-svg-icons"
-import "./navi.css";
+import "./navi.css"; //css file
+
+
 class Navi extends React.Component{
 
 
     render(){
         //note: sticky doesn't work since overflow property prevents this (we have enabled overflow everywhere)
+        //a basic react-bootstrap navbar, allows navigation to same page's subsections and external
+        //github, linkedin, email, and resume links
         return(
 
             <div>

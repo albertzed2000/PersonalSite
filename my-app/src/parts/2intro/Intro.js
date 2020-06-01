@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 import "./Intro.css";
 
-
+//aos pkg initialization allows for fade-in animations
 import AOS from "aos";
 import 'aos/dist/aos.css';
 AOS.init();

@@ -1,13 +1,18 @@
 import React from "react";
 import "./Projects.css"
 import ProjectsJumbo from "./ProjectJumbo";
+
 import Card from "react-bootstrap/Card"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
+
+//import font awesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
+
+//aos fade animation initialization
 import AOS from "aos";
 import 'aos/dist/aos.css';
 AOS.init();
@@ -20,19 +25,22 @@ class Projects extends React.Component{
         this.conversationClick = this.conversationClick.bind(this);
     }
 
+    
     adventureClick(){
+        //opens adventureOfPost github repository when clicked
 
         window.open('https://github.com/albertzed2000/AdventureOfPost');
     }
 
     conversationClick(){
+        //opens Conversationalist github repo when clicked
 
         window.open('https://github.com/albertzed2000/Conversationalist');
     }
-    //style={{ width: '55vh' }}
     render(){
 
         return(
+            // jumbotron in one row, then one card for each project in the next row
 
             <div className="projects-whole" style={{"overflow-x": "hidden", "overflow-y": "hidden"}}>
                 <Row>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+//second blurb on about page
 class Blurb2 extends React.Component{
 
 

@@ -2,6 +2,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import "./Contact.css";
 import React from "react";
 
+//big words on contact page
 class ContactJumbo extends React.Component{
 
 

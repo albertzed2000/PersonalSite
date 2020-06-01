@@ -3,6 +3,7 @@
   zoom: 1.0 ;
 }
 
+/*smooth scrolling*/
 html {
   scroll-behavior: smooth;
 }
@@ -21,6 +22,7 @@ code {
     monospace;
 }
 
+/*ombre effect between page subsections*/
 .intro-ombre{
   background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,239,223,1) 42%, rgba(255,217,179,1) 100%);

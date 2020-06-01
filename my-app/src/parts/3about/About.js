@@ -1,13 +1,17 @@
 import React from "react";
-import Blurb from "./Blurb";
-import AboutJumbo from "./AboutJumbo";
-import "./About.css";
+
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import AboutJumbo from "./AboutJumbo";
+import "./About.css";
+
 import Blurb2 from "./Blurb2";
 import Blurb3 from "./blurb3";
+import Blurb from "./Blurb";
 
+//aos fade animations, initialization
 import AOS from "aos";
 import 'aos/dist/aos.css';
 AOS.init();
@@ -19,7 +23,7 @@ class About extends React.Component{
         return(
 
             <div className="AboutGeneral" style={{"overflow-x": "hidden", "overflow-y": "hidden"}}>
-
+                {/*Jumbotron and 'profile pic' in one Row */}
             
             <Row >
                 <Col md={5}>
@@ -45,7 +49,9 @@ class About extends React.Component{
             </Row>
             
             
+
             <Row className="about-images" >
+                {/*image collage with borders (css) and fade effect */}
                 <Col md={4} >
                     <div className="images-left" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-delay="300">
                     <Image className="pic" alt="Made thousands of these when I worked at Cactus Club Cafe!" src={'assets/img/cactuspoke.jpg'}  fluid/>

@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 import Carousel from 'react-bootstrap/Carousel'  
 import "./Intro.css";
 
+
 export class TextCarousel extends Component {  
         render() {  
-                //temporary component, must be styled properly for final verson!
 
                 let itemStyle = {'height': "1em"};
+                //text carousel that transitions between a few different texts
                 return (
                         <div>   
                         <Carousel fade={true} controls={false} indicators={false} interval={2000}>  

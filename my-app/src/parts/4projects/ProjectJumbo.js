@@ -2,6 +2,7 @@ import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import "./Projects.css"
 
+//big words on project page
 class ProjectJumbo extends React.Component{
 
     render(){

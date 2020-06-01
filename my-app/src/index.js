@@ -1,16 +1,21 @@
+
+//import statements
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+//import page section components
+import Navi from "./parts/1NavBar/navi";
 import Intro from "./parts/2Intro/Intro";
 import About from "./parts/3about/About";
 import Projects from "./parts/4projects/Projects"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from "./parts/5Contact/Contact";
-import Navi from "./parts/1NavBar/navi";
 
+
+
+//render all website page section components, separated by ombre-styled div break sections
 ReactDOM.render(
   <React.StrictMode>
     <div id="Top">

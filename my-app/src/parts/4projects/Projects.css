@@ -20,6 +20,8 @@
     color: black;
 }
 
+
+/*for portrait oriented mobile*/
 @media screen and (orientation:portrait){
     
     .card-general{
