@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import page section components
 import Navi from "./parts/1NavBar/navi";
-import Intro from "./parts/2Intro/Intro";
+import Intro from "./parts/2intro/Intro";
 import About from "./parts/3about/About";
 import Projects from "./parts/4projects/Projects"
 import Contact from "./parts/5Contact/Contact";
