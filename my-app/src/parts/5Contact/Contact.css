@@ -16,6 +16,15 @@
     font-size: 12vh;
 }
 
+.icon:hover{
+    color:orange;
+}
+
+.icon-group:hover{
+    color: orange;
+}
+
+
 .icon-text{
 
     font-size: 4vh;

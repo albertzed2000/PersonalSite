@@ -24,7 +24,7 @@ class Navi extends React.Component{
 
             <div>
             <Navbar bg="light" expand="lg" fixed="top">
-                <Navbar.Brand href="#Top">Albert Zheng</Navbar.Brand>
+                <Navbar.Brand href="/#Top">Albert Zheng</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
 
@@ -38,10 +38,10 @@ class Navi extends React.Component{
                     </Nav>
 
                     <Nav>
-                        <Nav.Link href="https://github.com/albertzed2000" target="blank"><FontAwesomeIcon icon={faGithub}/></Nav.Link>
-                        <Nav.Link href="https://www.linkedin.com/in/albertzed/" target="blank"><FontAwesomeIcon icon={faLinkedin}/></Nav.Link>
-                        <Nav.Link href="mailto:mralbertzheng@gmail.com" target="blank"><FontAwesomeIcon icon={faEnvelopeSquare}/></Nav.Link>
-                        <Nav.Link href="assets/AlbertZhengResume.pdf" target="blank"><FontAwesomeIcon icon={faFile}/></Nav.Link>
+                        <Nav.Link alt="Github" href="https://github.com/albertzed2000" target="blank"><FontAwesomeIcon icon={faGithub}/></Nav.Link>
+                        <Nav.Link alt="LinkedIn"  href="https://www.linkedin.com/in/albertzed/" target="blank"><FontAwesomeIcon icon={faLinkedin}/></Nav.Link>
+                        <Nav.Link alt="Email" href="mailto:mralbertzheng@gmail.com" target="blank"><FontAwesomeIcon icon={faEnvelopeSquare}/></Nav.Link>
+                        <Nav.Link alt="Resume" href="assets/AlbertZhengResume.pdf" target="blank"><FontAwesomeIcon icon={faFile}/></Nav.Link>
                 
                     </Nav>
                 </Navbar.Collapse>

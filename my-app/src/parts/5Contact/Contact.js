@@ -39,7 +39,7 @@ class Contact extends React.Component{
             
             <Row className="icon-row">
                 <Col md={3}>
-                    <div>
+                    <div className="icon-group">
                         <a href="https://github.com/albertzed2000" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faGithub}/>
                         </a>
@@ -50,7 +50,7 @@ class Contact extends React.Component{
                 </Col>
 
                 <Col md={3}>
-                    <div>
+                    <div className="icon-group">
                         <a href="https://www.linkedin.com/in/albertzed/" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faLinkedin}/>
                         </a>
@@ -61,7 +61,7 @@ class Contact extends React.Component{
                 </Col>
 
                 <Col md={3}>  
-                    <div>
+                    <div className="icon-group">
                         <a href="mailto:mralbertzheng@gmail.com" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faEnvelopeSquare}/>
                         </a>
@@ -72,7 +72,7 @@ class Contact extends React.Component{
                 </Col>
                 
                 <Col md={3}>
-                    <div>
+                    <div className="icon-group">
                         <a href="assets/AlbertZhengResume.pdf" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faFile}/>
                         </a>
