@@ -25,12 +25,12 @@ class Contact extends React.Component{
         <div className="contact-whole" style={{"overflow-x": "hidden", "overflow-y": "hidden"}}>
 
             <Row>
-                <Col md={7}>
+                <Col md={6}>
 
                 </Col>
 
 
-                <Col md={5}>
+                <Col md={6}>
                     <div>
                         <ContactJumbo />
                     </div>
@@ -40,12 +40,12 @@ class Contact extends React.Component{
             <Row className="icon-row">
                 <Col md={3}>
                     <div className="icon-group">
-                        <a href="https://github.com/albertzed2000" target="blank" style={{color: "black"}}>
+                        <a alt="hello" href="https://github.com/albertzed2000" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faGithub}/>
                         </a>
-                        <div className="icon-text">
+                        {/* <div className="icon-text">
                         Github
-                        </div>
+                        </div> */}
                     </div>
                 </Col>
 
@@ -54,9 +54,9 @@ class Contact extends React.Component{
                         <a href="https://www.linkedin.com/in/albertzed/" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faLinkedin}/>
                         </a>
-                        <div className="icon-text">
+                        {/* <div className="icon-text">
                         LinkedIn
-                        </div>
+                        </div> */}
                     </div>
                 </Col>
 
@@ -65,9 +65,9 @@ class Contact extends React.Component{
                         <a href="mailto:mralbertzheng@gmail.com" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faEnvelopeSquare}/>
                         </a>
-                        <div className="icon-text">
+                        {/* <div className="icon-text">
                         Email
-                        </div>
+                        </div> */}
                     </div>
                 </Col>
                 
@@ -76,9 +76,9 @@ class Contact extends React.Component{
                         <a href="assets/AlbertZhengResume.pdf" target="blank" style={{color: "black"}}>
                         <FontAwesomeIcon className="icon" icon={faFile}/>
                         </a>
-                        <div className="icon-text">
+                        {/* <div className="icon-text">
                         Resume
-                        </div>
+                        </div> */}
                     </div>
                 </Col>
 

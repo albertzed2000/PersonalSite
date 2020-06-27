@@ -2,6 +2,7 @@
 
     background-color: white;
     color: black;
+    
 }
 
 .contact-jumbo{
@@ -13,7 +14,7 @@
 
 .icon{
 
-    font-size: 12vh;
+    font-size: 8vh;
 }
 
 .icon:hover{
@@ -27,12 +28,13 @@
 
 .icon-text{
 
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 .icon-row{
 
     margin-left: 4vh;
+    padding: 0 25vw;
 }
 
 /*applies only to portrait-oriented devices*/
