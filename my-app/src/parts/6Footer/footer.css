@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.footer-whole{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    padding: 0 3vw;
+
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.footer-copyright{
+    font-size: 0.7vw;
+    color:grey;
+}

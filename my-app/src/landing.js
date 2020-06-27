@@ -12,6 +12,7 @@ import Intro from "./parts/2intro/Intro";
 import About from "./parts/3about/About";
 import Projects from "./parts/4projects/Projects"
 import Contact from "./parts/5Contact/Contact";
+import Footer from "./parts/6Footer/footer";
 
 
 export default class Landing extends React.Component{
@@ -51,6 +52,10 @@ export default class Landing extends React.Component{
 
                 <div id="Contact">
                     <Contact />
+                </div>
+
+                <div id="Footer">
+                    <Footer/>
                 </div>
     </div>
         )
