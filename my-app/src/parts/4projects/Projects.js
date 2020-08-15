@@ -76,7 +76,8 @@ class Projects extends React.Component{
                                 <Card.Title>LoL Stats/RazeStats</Card.Title>
                                 <Card.Text>
                                 Two web apps that integrate the Riot Games API in order to display in-depth gameplay statistics.
-                                Built using React, React-Bootstrap, and AWS Lambda + API Gateway for the API proxy server.
+                                Built using React for frontend, AWS Lambda + API Gateway as a API proxy server, and NodeJS + MongoDB for the database
+                                and server.
                                 </Card.Text>
                                 <Row>
                                     <Col>   
