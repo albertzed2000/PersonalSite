@@ -1,6 +1,8 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron"
 import TextCarousel from "./TextCarousel"
+import TypedCarousel from "./TypedCarousel"
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -23,13 +25,17 @@ class Intro extends React.Component{
                         Hi, I'm <span style={{"color": "#ff6600"}}>Albert!</span>
 
                     <Row>
-                        <Col md={7}>
+                        <Col md={9}>
                         <div className="caro container-fluid">
-                            <TextCarousel />
+                            {/* <TextCarousel /> */}
+                            <span>
+                            And I'm&nbsp;
+                             <span className="typedIntro"><TypedCarousel /></span>
+                            </span>
                         </div> 
                         </Col> 
                         
-                        <Col md={5}>
+                        <Col md={3}>
 
                         </Col>
                     </Row>     

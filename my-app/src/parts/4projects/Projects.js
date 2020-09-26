@@ -25,28 +25,36 @@ class Projects extends React.Component{
         this.conversationClick = this.conversationClick.bind(this);
         this.lolStatsClick = this.lolStatsClick.bind(this);
         this.razeStatsClick = this.razeStatsClick.bind(this);
+        this.pokeRecClick = this.pokeRecClick.bind(this);
     }
 
     
     adventureClick(){
         //opens adventureOfPost github repository when clicked
-
         window.open('https://github.com/albertzed2000/AdventureOfPost');
     }
 
     conversationClick(){
         //opens Conversationalist github repo when clicked
-
         window.open('https://github.com/albertzed2000/Conversationalist');
     }
 
     lolStatsClick(){
+        //opens lolStats github page when clicked
         window.open('https://github.com/albertzed2000/LoL-Stats');
     }
 
     razeStatsClick(){
+        //opens razestats domain when clicked 
         window.open('https://razestats.com');
     }
+
+    pokeRecClick(){
+        //opens pokeRec github repo when clicked
+        window.open('https://github.com/albertzed2000/PokeRec');
+    }
+
+
     render(){
 
         return(
@@ -66,8 +74,27 @@ class Projects extends React.Component{
                 
                 <Row>
 
+                        <Col className='card-general' md={3}>
+                            <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#first-card" data-aos-delay="500">
+                            <Card >
+                            <Card.Img variant="top" src={'assets/img/pokehome.png'} />'
+                            
+                            <Card.Body>
+                                <Card.Title>PokeRec</Card.Title>
+                                <Card.Text>
+                                Mobile App built in React Native that recognizes images of pokemon cards and tells the user how much their collection is worth.
+                                </Card.Text>
+                                <Row>
+                                    <Col>   
+                                        <Button variant="primary" onClick={this.pokeRecClick}><FontAwesomeIcon icon={faGithub} /> See it on Github!</Button>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            </Card>
+                            </div>
+                        </Col>
 
-                        <Col className='card-general' md={4}>
+                        <Col className='card-general' md={3}>
                             <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#first-card" data-aos-delay="500">
                             <Card >
                             <Card.Img variant="top" src={'assets/img/imaqtpie.jpg'} />'
@@ -93,7 +120,7 @@ class Projects extends React.Component{
                         </Col>
  
 
-                        <Col className='card-general' md={4}>
+                        <Col className='card-general' md={3}>
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#first-card" data-aos-delay="500">
                         <Card >
                         <Card.Img variant="top" src={'assets/img/adv-screenshot1.jpg'} />'
@@ -112,7 +139,7 @@ class Projects extends React.Component{
 
                         {/*data-aos-anchor-placement="top-top" */ }
                         <div id="second-card"></div>
-                        <Col className='card-general' md={4}>
+                        <Col className='card-general' md={3}>
 
                         <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor="#second-card" data-aos-delay="700">
                         <Card >

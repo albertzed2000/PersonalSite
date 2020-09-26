@@ -15,5 +15,11 @@
 
 .caro {
     padding: 0vh 0vh 0vh 2.5vh;
+    font-size: 4vh;
+}
+
+.typedIntro {
+    display: inline-block;
+    color: #ff6600;
 }
 
