@@ -106,14 +106,19 @@ class Projects extends React.Component{
                                 Built using React for frontend, AWS Lambda + API Gateway as a API proxy server, and NodeJS + MongoDB for the database
                                 and server.
                                 </Card.Text>
+                                
                                 <Row>
+
                                     <Col>   
                                         <Button variant="primary" onClick={this.lolStatsClick}><FontAwesomeIcon icon={faGithub} /> LoLStats on Github!</Button>
                                     </Col>
+
                                     <Col>
                                         <Button variant="primary" onClick={this.razeStatsClick}><FontAwesomeIcon/>Go To RazeStats!</Button>
                                     </Col>
+
                                 </Row>
+
                             </Card.Body>
                             </Card>
                             </div>
